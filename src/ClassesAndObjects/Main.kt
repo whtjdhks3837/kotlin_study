@@ -11,5 +11,8 @@ fun main(args: Array<String>) {
 //    ChildA(1, 2).foo()
 //    ChildA(1, 2).b()
 
-    ChildB().foo()
+//    ChildB().foo()
+
+//    Derived("seo wan", "Joe")
+    Bar().Baz().g()
 }

@@ -110,3 +110,80 @@ class ChildB {
         println(parentB.x)
     }
 }
+
+interface Foo {
+    val count: Int
+}
+
+// 생성자에서 오버라이딩
+class Bar1(override val count: Int): Foo {
+    //...
+}
+
+// 클래스 내에서 오버라이딩
+class Bar2 : Foo {
+    override val count: Int = 0
+}
+
+open class Base(val name: String) {
+    init {
+        println("Initializing Base")
+    }
+
+    open val size: Int = name.length.also { println("Initializing size in Base: $it") }
+}
+
+class Derived(name: String, val lastName: String)
+    : Base(name.capitalize().also { println("Argument for Base: $it") }) {
+
+    init { println("Initializing Derived") }
+
+    override val size: Int
+            = (super.size + lastName.length).also { println("Initializing size in Derived: $it") }
+}
+
+open class Foo2 {
+    open fun f() { println("Foo.f()") }
+    open val x: Int get() = 1
+}
+
+class Bar : Foo2() {
+    override fun f() {
+        super.f()
+        println("Bar.f()")
+    }
+
+    override val x: Int get() = super.x + 1
+
+    inner class Baz {
+        fun g() {
+            // Bar의 슈퍼클래스의 멤버를 호출한다.
+            super@Bar.f()
+            println(super@Bar.x)
+        }
+    }
+}
+
+open class A {
+    open fun f() { print("A") }
+    fun a() { print("a") }
+}
+
+interface B {
+    fun f() { print("B") } // interface members are 'open' by default
+    fun b() { print("b") }
+}
+
+class C() : A(), B {
+    // The compiler requires f() to be overridden:
+    override fun f() {
+        super<A>.f() // call to A.f()
+        super<B>.f() // call to B.f()
+    }
+
+   
+
+    override fun b() {
+
+    }
+}
