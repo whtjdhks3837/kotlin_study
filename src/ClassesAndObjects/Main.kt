@@ -14,5 +14,24 @@ fun main(args: Array<String>) {
 //    ChildB().foo()
 
 //    Derived("seo wan", "Joe")
-    Bar().Baz().g()
+
+//    Bar().Baz().g()
+
+//    var address = Address()
+//    address.city = "서울시"
+//    address.street = "공덕"
+//    printAddressInfo(address)
+
+//    val backingFields = BackingFields()
+//    backingFields.counter = 10
+//    println(backingFields.counter)
+//    backingFields.counter = -1
+//    println(backingFields.counter)
+
+    val myTest = MyTest()
+    if (!myTest.isInitialized()) {
+        println("my test is not initialized")
+        myTest.setup()
+        myTest.test()
+    }
 }

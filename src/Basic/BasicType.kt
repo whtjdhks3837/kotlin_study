@@ -44,27 +44,28 @@ fun underscoresInNumericLiterals() {
             "$bytes")
 }
 
+class Cls {
+    //...
+}
+
 fun representation() {
     val a = 10000
     val b = 10000
-    /**
-     * '===' 연산자는 같은 참조인지를 판별하는 연산자.
-     * 근데 왜 a랑 b가 같아?? 이상한놈들이네
-     */
     println(a === a)
     println(a === b)
     println(a == b)
 
+    val cls1 = Cls()
+    var cls2 = Cls()
+
+    println(cls1 === cls2)
+    cls2 = cls1
+    println(cls1 === cls2)
+
     val boxedA: Int? = a
     val anotherBoxedA: Int? = a
-    /**
-     * '!!' 연산자는 null safe를 무시하는 연산자.
-     * 도대체 왜 참조가 같은거야??
-     */
     println(boxedA === anotherBoxedA)
     println(boxedA!! === anotherBoxedA!!)
-    println(boxedA == anotherBoxedA)
-    println(boxedA!! == anotherBoxedA!!)
 }
 
 /**
@@ -85,16 +86,18 @@ fun explicitConversions() {
     val i: Int = b.toInt()
     println("$b , $i")
 
-    /**
-     * shl(bits) – signed shift left (Java's <<)
-     * shr(bits) – signed shift right (Java's >>)
-     * ushr(bits) – unsigned shift right (Java's >>>)
-     * and(bits) – bitwise and
-     * or(bits) – bitwise or
-     * xor(bits) – bitwise xor
-     * inv() – bitwise inversion
-     */
+}
 
+/**
+ * shl(bits) – signed shift left (Java's <<)
+ * shr(bits) – signed shift right (Java's >>)
+ * ushr(bits) – unsigned shift right (Java's >>>)
+ * and(bits) – bitwise and
+ * or(bits) – bitwise or
+ * xor(bits) – bitwise xor
+ * inv() – bitwise inversion
+ */
+fun shiftOperator() {
     /**
      * 1 shl 2 -> 00000001 << 2 -> 00000100
      * 00000100 & 00010101 -> 00000100

@@ -5,6 +5,7 @@ fun main(args: Array<String>) {
 //    underscoresInNumericLiterals()
 //    representation()
 //    explicitConversions()
+//    shiftOperator()
 //    arrays()
 //    foo()
 //    whenExpression()

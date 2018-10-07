@@ -2,16 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f4dab4a-91b5-48c5-a2aa-6bd81caadca1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ClassesAndObjects/PropertiesAndFields.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin_study/ClassesAndObjects/Bar$Baz.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin_study/ClassesAndObjects/Bar$Baz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin_study/ClassesAndObjects/Bar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin_study/ClassesAndObjects/Bar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin_study/ClassesAndObjects/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin_study/ClassesAndObjects/Base.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/kotlin_study/ClassesAndObjects/ChildA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin_study/ClassesAndObjects/ChildA.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/kotlin_study/ClassesAndObjects/ChildB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin_study/ClassesAndObjects/ChildB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin_study/ClassesAndObjects/Derived.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin_study/ClassesAndObjects/Derived.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin_study/ClassesAndObjects/Foo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin_study/ClassesAndObjects/Foo2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/kotlin_study/ClassesAndObjects/InitOrderDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin_study/ClassesAndObjects/InitOrderDemo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/kotlin_study/ClassesAndObjects/InitOrderDemo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin_study/ClassesAndObjects/InitOrderDemo2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/kotlin_study/ClassesAndObjects/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin_study/ClassesAndObjects/MainKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/kotlin_study/ClassesAndObjects/ParentA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin_study/ClassesAndObjects/ParentA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kotlin_study/ClassesAndObjects/ParentB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin_study/ClassesAndObjects/ParentB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin_study/META-INF/kotlin_study.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin_study/META-INF/kotlin_study.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basic/BasicType.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basic/BasicType.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basic/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basic/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basic/ReturnsAndJumps.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basic/ReturnsAndJumps.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ClassesAndObjects/ClassesAndInheritance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassesAndObjects/ClassesAndInheritance.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ClassesAndObjects/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassesAndObjects/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClassesAndObjects/VisibilityModifiers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassesAndObjects/VisibilityModifiers.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,65 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BasicSyntax.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BasicSyntax/BasicSyntax.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" selection-start-column="19" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Main.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Basic/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReturnsAndJumps.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Basic/ReturnsAndJumps.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ClassesAndObjects/Main.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassesAndInheritance.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ClassesAndObjects/ClassesAndInheritance.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="183" column="3" selection-start-line="183" selection-start-column="3" selection-end-line="183" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VisibilityModifiers.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ClassesAndObjects/VisibilityModifiers.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BasicSyntax/Main.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+            <state relative-caret-position="225">
+              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -89,8 +45,17 @@
       <file leaf-file-name="BasicType.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Basic/BasicType.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1590">
-              <caret line="106" column="13" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
+            <state relative-caret-position="365">
+              <caret line="112" column="1" lean-forward="true" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReturnsAndJumps.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Basic/ReturnsAndJumps.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
             </state>
           </provider>
         </entry>
@@ -98,8 +63,8 @@
       <file leaf-file-name="PackagesAndImports.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Basic/PackagesAndImports.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -107,8 +72,8 @@
       <file leaf-file-name="ControllFlow.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Basic/ControllFlow.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+            <state relative-caret-position="365">
+              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -153,15 +118,16 @@
         <option value="$PROJECT_DIR$/src/BasicSyntax/Range.kt" />
         <option value="$PROJECT_DIR$/src/Main.kt" />
         <option value="$PROJECT_DIR$/src/Basic/PackagesAndImports.kt" />
-        <option value="$PROJECT_DIR$/src/Basic/BasicType.kt" />
         <option value="$PROJECT_DIR$/src/Basic/ControllFlow.kt" />
-        <option value="$PROJECT_DIR$/src/Basic/Main.kt" />
-        <option value="$PROJECT_DIR$/src/Basic/ReturnsAndJumps.kt" />
         <option value="$PROJECT_DIR$/src/BasicSyntax/BasicSyntax.kt" />
         <option value="$PROJECT_DIR$/src/BasicSyntax/Main.kt" />
         <option value="$PROJECT_DIR$/src/ClassesAndObjects/VisibilityModifiers.kt" />
-        <option value="$PROJECT_DIR$/src/ClassesAndObjects/Main.kt" />
         <option value="$PROJECT_DIR$/src/ClassesAndObjects/ClassesAndInheritance.kt" />
+        <option value="$PROJECT_DIR$/src/ClassesAndObjects/PropertiesAndFields.kt" />
+        <option value="$PROJECT_DIR$/src/ClassesAndObjects/Main.kt" />
+        <option value="$PROJECT_DIR$/src/Basic/BasicType.kt" />
+        <option value="$PROJECT_DIR$/src/Basic/Main.kt" />
+        <option value="$PROJECT_DIR$/src/Basic/ReturnsAndJumps.kt" />
       </list>
     </option>
   </component>
@@ -195,6 +161,12 @@
               <item name="kotlin_study" type="b2602c69:ProjectViewProjectNode" />
               <item name="kotlin_study" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlin_study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Basic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kotlin_study" type="b2602c69:ProjectViewProjectNode" />
@@ -239,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.ClassesAndObjects.MainKt">
+  <component name="RunManager" selected="Kotlin.Basic.MainKt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -329,8 +301,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.ClassesAndObjects.MainKt" />
         <item itemvalue="Kotlin.Basic.MainKt" />
+        <item itemvalue="Kotlin.ClassesAndObjects.MainKt" />
         <item itemvalue="Kotlin.Basic.BasicTypeKt" />
         <item itemvalue="Kotlin.BasicSyntax.BasicSyntaxKt" />
       </list>
@@ -349,12 +321,12 @@
       <workItem from="1538122883669" duration="13159000" />
       <workItem from="1538197570517" duration="550000" />
       <workItem from="1538630342500" duration="14760000" />
-      <workItem from="1538736193307" duration="1132000" />
+      <workItem from="1538736193307" duration="9067000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29601000" />
+    <option name="totallyTimeSpent" value="37536000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -369,12 +341,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50078124" side_tool="true" weight="0.328877" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49921876" visible="true" weight="0.328877" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49921876" visible="true" weight="0.328877" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -402,13 +374,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BasicSyntax/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Basic/BasicType.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1590">
@@ -658,48 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Basic/PackagesAndImports.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Basic/ControllFlow.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Basic/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Basic/BasicType.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1590">
-          <caret line="106" column="13" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Basic/ReturnsAndJumps.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BasicSyntax/BasicSyntax.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BasicSyntax/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -707,24 +630,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClassesAndObjects/VisibilityModifiers.kt">
+    <entry file="file://$PROJECT_DIR$/src/BasicSyntax/BasicSyntax.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+        <state relative-caret-position="-21">
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClassesAndObjects/Main.kt">
+    <entry file="file://$PROJECT_DIR$/src/ClassesAndObjects/VisibilityModifiers.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        <state relative-caret-position="305">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ClassesAndObjects/ClassesAndInheritance.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="183" column="3" selection-start-line="183" selection-start-column="3" selection-end-line="183" selection-end-column="3" />
+        <state relative-caret-position="5">
+          <caret line="164" column="1" lean-forward="true" selection-start-line="164" selection-start-column="1" selection-end-line="164" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClassesAndObjects/PropertiesAndFields.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClassesAndObjects/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Basic/BasicType.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="112" column="1" lean-forward="true" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Basic/ControllFlow.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Basic/PackagesAndImports.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Basic/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Basic/ReturnsAndJumps.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
     </entry>

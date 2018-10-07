@@ -15,7 +15,7 @@ class Person2(name: String) {
 // 파라미터로 쓰는 생성자 -> init -> constructor블럭 순으로 실행.
 // 파라미터로 쓰는 생성자와 constructor블럭은 동시에 사용 할 수 없음.
 class InitOrderDemo {
-    var name: String? = null;
+    var name: String? = null
 
     constructor(name: String?) {
         this.name = name
@@ -88,7 +88,7 @@ class ChildA : ParentA {
 open class ParentB {
     /**
      * get()
-     * 값을 return해주는 메소드. 값의 변경하여 return이 가능하다.
+     * 값을 return해주는 메소드. 값을 변경하여 return이 가능하다.
      * set()
      * 대입된 값을 변경해주는 메소드.
      */
@@ -181,7 +181,7 @@ class C() : A(), B {
         super<B>.f() // call to B.f()
     }
 
-   
+
 
     override fun b() {
 

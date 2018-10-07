@@ -36,7 +36,7 @@ class SubClass : Outer() {
 class AnotherClass {
     fun foo() {
         val outer = Outer()
-        // val nested = Nested() //Outer를 상속받지 않아 불가하다.
+        // val nested = Nested() //Outer를 상속받지 않아 호출이 불가하다.
 
         // c는 internal, d는 public이기 때문에 호출 가능하다.
         println("${outer.c}, ${outer.d}")
