@@ -3,6 +3,7 @@ package ClassesAndObjects
 // constructor case1
 class Person constructor(name: String) {
     //..
+
 }
 
 // constructor case2
