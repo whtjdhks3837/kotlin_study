@@ -18,7 +18,7 @@ fun loopTest() {
     }
 
     // 1 ~ 9
-    for (x in 1 until 10) {
+    for (x in 5 until 10) {
         print("$x ")
     }
 }

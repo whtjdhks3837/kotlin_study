@@ -26,5 +26,11 @@ fun main(args: Array<String>) {
 //    lazyTest()
 //    singletonTest()
 //    fileReadTest()
-    mutableTest()
+//    mutableTest()
+
+    val set = mutableSetOf<SetTest>()
+    set.add(SetTest(1, 2))
+    set.add(SetTest(1, 2))
+    set.forEach { println("${it.num}, ${it.num2}") }
 }
+data class SetTest(val num: Int, val num2: Int)
